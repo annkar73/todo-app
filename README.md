@@ -1,33 +1,16 @@
-# vue-todo
+# Todo app
 
-This template should help get you started developing with Vue 3 in Vite.
+Detta är ett första projekt i min process att lära mig Vuejs
 
-## Recommended IDE Setup
+## Features
+Jag har valt att skapa en Todo med ett fåtal komponenter:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
+App.vue som är huvudsakligt samlingsdokument för övriga komponenter.  
+TodoList.vue som innehåller en Todo i sprakande färger där varje notis får olika bakgrundsfärg utifrån en lista. Detta går sedan som en loop och upprepas vartefter man lägger till mer.   
+TodoBw.vue som är en variant av den ovanstående komponenten, med den skillnaden att den istället är monokrom och går i en gråskala.  
+ToggleButton.vue som styr byte av färgtema och hanterar visning av ikoner för detta.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Utöver detta finns en model för Todo och ett dokument som hanterar lagring och hämtning till och från Local Storage. 
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+Hela projektet, så litet det är, är skrivet i Vuejs och typescript som en del av kursen Javascript fördjupning.
