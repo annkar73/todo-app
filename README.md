@@ -13,4 +13,11 @@ ToggleButton.vue som styr byte av färgtema och hanterar visning av ikoner för 
 
 Utöver detta finns en model för Todo och ett dokument som hanterar lagring och hämtning till och från Local Storage. 
 
-Hela projektet, så litet det är, är skrivet i Vuejs och typescript som en del av kursen Javascript fördjupning.
+Hela projektet, så litet det är, är skrivet i Vuejs och typescript som en del av kursen Javascript fördjupning.  
+
+## Bilder
+Initialt laddas appen med sprakande färger:  
+<img src="./public/todo_rainbow.jpeg" alt="unicorn rainbow theme">  
+
+När man byter tema genom att klicka på regnbågarna i överkant följer de befintliga notiserna med:  
+<img src="./public/todo_bw.jpeg" alt="monochrome theme">
