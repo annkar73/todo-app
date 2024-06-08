@@ -1,0 +1,12 @@
+@import './base.css';
+
+#app {
+  max-width: 384px;
+  margin: 0 auto;
+  padding: 2px;
+  font-weight: normal;
+}
+body {
+  background-color: whitesmoke;
+}
+
